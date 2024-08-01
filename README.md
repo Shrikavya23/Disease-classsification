@@ -20,5 +20,5 @@ The process of creating a deep learning algorithm for Pneumonia/COVID-19 classif
 
 ## Dataset Description
 Dataset is organized into 2 folders (train, test) and both train and test contain 3 subfolders (COVID19, PNEUMONIA, NORMAL). DataSet contains total 6432 x-ray images and test data have 20% of total images.
-You can access the dataset throgh this link https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
+You can access the dataset through this link https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
   
