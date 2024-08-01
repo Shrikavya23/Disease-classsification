@@ -21,4 +21,19 @@ The process of creating a deep learning algorithm for Pneumonia/COVID-19 classif
 ## Dataset Description
 Dataset is organized into 2 folders (train, test) and both train and test contain 3 subfolders (COVID19, PNEUMONIA, NORMAL). DataSet contains total 6432 x-ray images and test data have 20% of total images.
 You can access the dataset through this link https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
+
+## Contributing
+I welcome contributions to this project! Here are some ways you can help:
+
+1. **Report bugs**: If you find any bugs, please create an issue.
+2. **Feature requests**: If you have ideas for new features, please let me know.
+3. **Code contributions**: Feel free to fork the repository and submit pull requests.
+
+### Steps to Contribute
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
   
