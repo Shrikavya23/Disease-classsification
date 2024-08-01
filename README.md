@@ -16,4 +16,9 @@ The process of creating a deep learning algorithm for Pneumonia/COVID-19 classif
 * Data Preprocessing: Image rescaling was done by reshaping all images to 224x224 pixels. Real-time data augmentation was done using rotations, flips and color shifts to expand diversity
 * Model Development: Transfer learning based model development was done using VGG16 CNN architecture. VGG16 was initialized with pre-trained ImageNet weights. The fully connected layers were removed and custom classification layers were added..
 * Model Training: Model was trained for 15 epochs using Adam optimizer.Binary cross entropy loss and accuracy metrics were tracked. Early stopping was used as callback to prevent overfitting.
-* Evaluation: Model was evaluated on the test set using accuracy, loss and confusion matrix. Classification report and heatmap were analyzed for further insights . 
+* Evaluation: Model was evaluated on the test set using accuracy, loss and confusion matrix. Classification report and heatmap were analyzed for further insights.
+
+## Dataset Description
+Dataset is organized into 2 folders (train, test) and both train and test contain 3 subfolders (COVID19, PNEUMONIA, NORMAL). DataSet contains total 6432 x-ray images and test data have 20% of total images.
+You can access the dataset throgh this link https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
+  
