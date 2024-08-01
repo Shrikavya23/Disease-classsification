@@ -9,3 +9,11 @@ COVID-19 is a highly infectious respiratory disease caused by the SARS-CoV-2 nov
 * Develop a deep convolutional neural network architecture using transfer learning with the pre-trained VGG16 model for effective feature extraction.
 * Train the classification model using binary cross-entropy loss function and Adam optimizer for 15 epochs monitoring model loss and accuracy.
 * Evaluate the performance of the final model using test data accuracy, loss metrics, confusion matrix, and classification report to validate effectiveness.
+
+## Methodology
+The process of creating a deep learning algorithm for pneumonia/COVID-19 classification using X-ray images encompasses several sequential steps, ranging from the acquisition of data to the deployment of the classification model. Below is a succinct delineation of the methodology:
+* Data Collection: Chest X-ray image datasets covering Normal, Pneumonia and COVID-19 classes were collected from public repositories. Training and validation sets were prepared along with a holdout test set
+* Data Preprocessing: Image rescaling was done by reshaping all images to 224x224 pixels. Real-time data augmentation was done using rotations, flips and color shifts to expand diversity
+* Model Development: Transfer learning based model development was done using VGG16 CNN architecture. VGG16 was initialized with pre-trained ImageNet weights. The fully connected layers were removed and custom classification layers were added..
+* Model Training: Model was trained for 15 epochs using Adam optimizer.Binary cross entropy loss and accuracy metrics were tracked. Early stopping was used as callback to prevent overfitting.
+* Evaluation: Model was evaluated on the test set using accuracy, loss and confusion matrix. Classification report and heatmap were analyzed for further insights . 
